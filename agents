@@ -1,0 +1,23 @@
+def run_agent():
+    print("Starting Web3 Research Agent")
+
+    # collect data
+    data = "example project data"
+
+    # analyze
+    result = analyze_data(data)
+
+    # send alert
+    send_alert(result)
+
+
+def analyze_data(data):
+    return f"AI analysis result for {data}"
+
+
+def send_alert(result):
+    print("Alert:", result)
+
+
+if __name__ == "__main__":
+    run_agent()
